@@ -6,6 +6,10 @@ pdf_service封装了pdf.js,移动PC端均可解析pdf。lib中的三个文件为
 
 ![vvv](http://p09oq805j.bkt.clouddn.com/image/pdf.gif)
 
+注意遇到的跨域问题，服务器设置accss-control-allow-origin
+![vvv](http://p09oq805j.bkt.clouddn.com/image/pdf%E8%B7%A8%E5%9F%9F.png)
+
+
 html可仍以书写，注意需要传入canvas的id
 ```html
 <div class="icx-pager icx-pager-inedia-heartData inedia-text" ng-controller="inediaHeartDataController">
